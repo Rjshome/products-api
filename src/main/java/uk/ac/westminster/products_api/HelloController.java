@@ -23,6 +23,11 @@ public class HelloController {
         return "Hello from Spring Boots!";
     }
 
+    @GetMapping("/info")
+    public String InfoController(){
+        return "This is a Spring Boots Application with a documented API and a GitHub repository.";
+    }
+
     @GetMapping("/goodbye")
     public String goodbye(){return "Goodbye from Spring Boots!";}
 
