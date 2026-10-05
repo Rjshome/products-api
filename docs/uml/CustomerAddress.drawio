@@ -1,0 +1,36 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="OsfBXm6PbMBbKaRtcIHQ">
+    <mxGraphModel dx="902" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xgztA4BxDno3KmuK0Z7C-4" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="340" width="340" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xgztA4BxDno3KmuK0Z7C-1" parent="xgztA4BxDno3KmuK0Z7C-4" style="rounded=0;whiteSpace=wrap;html=1;" value="Customer" vertex="1">
+          <mxGeometry height="113.33333333333334" width="340" as="geometry" />
+        </mxCell>
+        <mxCell id="xgztA4BxDno3KmuK0Z7C-10" edge="1" parent="xgztA4BxDno3KmuK0Z7C-4" source="xgztA4BxDno3KmuK0Z7C-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgztA4BxDno3KmuK0Z7C-2" parent="xgztA4BxDno3KmuK0Z7C-4" style="rounded=0;whiteSpace=wrap;html=1;" value="- id : Long&amp;nbsp;&lt;div&gt;- name : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- email : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- address : Address&lt;/div&gt;" vertex="1">
+          <mxGeometry height="113.33333333333334" width="340" y="113.33333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="xgztA4BxDno3KmuK0Z7C-3" parent="xgztA4BxDno3KmuK0Z7C-4" style="rounded=0;whiteSpace=wrap;html=1;" value="+ Customer()&amp;nbsp;&lt;div&gt;+ Customer(id : Long, name : String, email : String, address : Address)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getId() : Long&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getName() : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getEmail() : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getAddress() : Address&lt;/div&gt;" vertex="1">
+          <mxGeometry height="113.33333333333334" width="340" y="226.66666666666669" as="geometry" />
+        </mxCell>
+        <mxCell id="xgztA4BxDno3KmuK0Z7C-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Address" vertex="1">
+          <mxGeometry height="100" width="340" x="487" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xgztA4BxDno3KmuK0Z7C-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="- street : String&amp;nbsp;&lt;div&gt;- city : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- postcode : String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="487" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xgztA4BxDno3KmuK0Z7C-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="+ Address()&amp;nbsp;&lt;div&gt;+ Address(street : String, city : String, postcode : String)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getStreet() : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getCity() : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getPostcode() : String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="487" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
