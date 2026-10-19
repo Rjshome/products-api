@@ -3,6 +3,7 @@ class Product {
 - id : Long
 - name : String
 - price : double
++ getid() : Long
 + getName() : String
 + getPrice() : double
 }
@@ -18,5 +19,8 @@ class PhysicalProduct {
 - dimensions : String
 + getWeightKg() : double
 }
+
+Product <|-- DigitalProduct
+Product <|-- PhysicalProduct
 
 @enduml
