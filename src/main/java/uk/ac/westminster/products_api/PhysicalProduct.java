@@ -1,8 +1,10 @@
 package uk.ac.westminster.products_api;
 
-    public class PhysicalProduct extends Product {
+    public class PhysicalProduct extends Product implements Discountable {
         private double weightKg;
         private String dimensions;
+        private String downloadURL;
+        private double discountedPrice;
 
         // TODO (a): empty no-arg constructor for Jackson
 
@@ -15,7 +17,19 @@ package uk.ac.westminster.products_api;
         this.weightKg = weightKg;
         this.dimensions = dimensions;
     }
-    public PhysicalProduct(){}
+
+        @Override
+        public String getSummary() {
+            return "Digital: " + getName() + " | Download: " + downloadURL;
+        }
+        public void applyDiscount(double rate){
+
+        }
+        public double getDiscountedPrice(){
+
+        }
+
+        public PhysicalProduct(){}
 
     // TODO (c): getWeightKg() and getDimensions() }
     public double getWeightKg() {
